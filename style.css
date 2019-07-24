@@ -1,0 +1,102 @@
+body {
+  background-color: #D1D5DE;
+  color: #586A73;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
+  font-weight: 320;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Alegreya SC', serif;
+  color: #69605B;
+  font-size: 48px;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Alegreya SC', serif;
+  color: #69605B;
+  font-size: 28px;
+  text-align: center;
+  line-height: 2;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #3F0D12;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #846568;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.shadowed{
+  box-shadow: 0px 10px 30px #86888E;
+}
+
+.container {
+  width: 850px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-brown {
+  background-color: #E5E8ED;
+  padding: 40px;
+  box-shadow: 0px 10px 30px #ACAFB6;
+  border-radius: 4px;
+  margin: 40px 0px;
+  text-align: center;
+}
+
+.wine-btn {
+  background-color: #502327;
+  color: #BEC2CA;
+  padding: 4px 20px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px #23080A
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+
+.social-btn{
+  color: #502327;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
